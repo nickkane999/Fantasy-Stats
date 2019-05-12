@@ -1,0 +1,74 @@
+Modules
+	get_my_points()
+		Go to url
+
+		Identify table w/ players (class=playerTableTable tableBody)
+			For loop
+				Put all players into list
+				
+		For loop
+			Go to Google w/ "fantasy football cbs [player name]"
+			Run If-Else Condition
+				If [fname-lname] link found (CBS projection page exists)
+					Click on that link
+					Store player's name, position, then projected points values for each week at/past current week in list
+						Get Avg point value for next 3 weeks
+				Else name isn't found in page
+					Store text "[person x] was not found online"
+
+
+
+Important Questions
+	Player stats
+		Rankings
+		Point Estimates
+		Significant Stats
+
+	Season Goals
+		Have the best draft possible
+		Know good players to get off waitlist
+			-Full-time replacements
+			-Temporary replacements
+				-Defense
+		Know good trades to make with other players
+			
+		
+	Research Questions
+		-What are good stats to grab for different players/positions?
+		-Should you temporarily select/trade off kickers
+			-Even RBs, WRs or TEs?
+
+fantasy class:
+
+	attributes
+		list (player names, point totals, etc)
+	
+	functions:
+		NA
+		
+	espn subclass:
+		
+		attributes:
+			list 
+			
+		functions
+			
+		
+	football class:
+
+		attributes:
+			list
+		
+		functions:
+			list = getTeamPlayers(url[optional])
+				-Go to url (if specified)
+				-Grab each players' name, position, and projected points
+			list = getListPlayers(url[optional])
+				-Go to url (if specified)
+				-Grab each players' name, position, and projected points
+			list = getListDetailPlayers(url[optional])
+				-Go to url (if specified)
+				-Grab each players' name, position, and projected points
+			list = getPlayerHistory(url[optional], player)
+			
+			comparePlayers(player1List, player2List, points)

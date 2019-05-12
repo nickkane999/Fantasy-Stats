@@ -1,0 +1,13 @@
+Configure draft settings
+	-Input parameters for point rules setup
+Find bust players [May be manual process]
+	-fantasy.findRiskPlayers()
+Grab ranking by sources [May be manual process]
+	-fantasy.getESPNRankData()
+	-fantasy.getYahooRankData()
+	-fantasy.getFantasyProsRankData()
+	-fantasy.getFantasyFBAnalyticsRankData()
+Set player tiers
+	-fantasy.returnPlayerTiers(playersList)
+Generate summary report
+	-generateDraftReport(tierList[multiple], riskPlayerList)

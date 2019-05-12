@@ -1,0 +1,31 @@
+Initial Work (Before Week 1)
+	Determine draft picks
+		Configure draft settings
+		Grab ranking by sources
+		Set player tiers
+		Find bust players
+Weekly Checks (Week 1 - Week 14)
+	Get waiver picks
+		Grab current player projections
+			Current week projections
+			Future weeks projections
+		Grab wavier player projections
+			Current week projections
+			Future weeks projections
+		Compare projections
+		Propose wavier picks
+			Short-term player holds
+			Long-term player holds
+	Find beneficial trades
+		Grab current player projections
+			Current week projections
+			Future weeks projections
+		Grab other teams' player projections
+			Current week projections
+			Future weeks projections
+		Compare projections
+			Personal Point Benefit
+			Other Team Point Benefit
+		Propose trades
+			Short-term player holds
+			Long-term player holds
